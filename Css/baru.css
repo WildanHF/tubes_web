@@ -92,3 +92,31 @@ button:hover{
     padding-top: 5px;
 }
 
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 18px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    form label, .error-message {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    button{
+        width: 100px;
+        align-content: center;
+        margin-left: 10px;
+    }
+}

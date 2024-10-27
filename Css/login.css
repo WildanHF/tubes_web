@@ -128,3 +128,82 @@ p{
     color: red;
     transition: 0.3s;
 }
+
+
+/* Tambahan untuk responsif pada mobile */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        max-width: 80%;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .login {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .right {
+        display: none; /* Sembunyikan gambar di sisi kanan pada tampilan mobile */
+    }
+
+    form {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    /* Menampilkan tombol sosial secara horizontal saat hanya dua tombol */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem; /* Memberikan jarak antar tombol */
+}
+
+.social-icon {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+/* Pengaturan responsif: Tampilkan secara kolom jika layar lebih kecil */
+@media (max-width: 480px) {
+    .social-media {
+        flex-direction: row; /* Pastikan tetap horizontal di mobile */
+        gap: 0.5rem; /* Jarak antar tombol */
+    }
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    form label {
+        font-size: 14px;
+    }
+
+    input, button {
+        font-size: 14px;
+        padding: 6px;
+    }
+}
+}

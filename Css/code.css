@@ -51,7 +51,7 @@ h1{
 }
 
 form label{
-    margin-right: 180px;
+    margin-right: 250px;
     text-align: center;
     display: block;
     font-size: 16px;
@@ -90,4 +90,41 @@ button{
     text-align: center;
     margin-top: 10px;
     font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 80%;
+        padding: 15px;
+        
+    }
+
+    h1 {
+        font-size: 18px;
+        margin-right: 140px;
+        text-align: start;
+    }
+
+    .text {
+        margin-left: 0;
+        width: 90%;
+        font-size: 14px;
+    }
+
+    form label {
+        margin-right: 0;
+        font-size: 14px;
+        text-align: start;
+        margin-right: 220px;
+
+    }
+
+    input {
+    width: 250px; /* Menyesuaikan dengan kontainer */
+    max-width: 300px
+    }
+
+    button{
+    width: 150px;
+    }
 }

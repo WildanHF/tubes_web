@@ -89,3 +89,50 @@ button{
     margin-top: 10px;
     font-size: 14px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 80%;
+        padding: 15px;
+        
+    }
+
+    h1 {
+        font-size: 18px;
+        margin-right: 140px;
+        text-align: start;
+    }
+
+    .text {
+        margin-left: 0;
+        width: 90%;
+        font-size: 14px;
+    }
+
+    form label {
+        margin-right: 0;
+        font-size: 14px;
+        text-align: start;
+        margin-right: 220px;
+
+    }
+
+    input, button {
+        width: 200px; /* Menyesuaikan dengan kontainer */
+    max-width: 300px
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    input, button {
+        width: 100%; /* Penuh untuk layar sangat kecil */
+    }
+}
