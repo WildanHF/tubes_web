@@ -118,7 +118,7 @@ button{
     }
 
     input, button {
-        width: 200px; /* Menyesuaikan dengan kontainer */
+        width: 200px;
     max-width: 300px
     }
 }
@@ -133,6 +133,6 @@ button{
     }
 
     input, button {
-        width: 100%; /* Penuh untuk layar sangat kecil */
+        width: 100%; 
     }
 }
