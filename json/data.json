@@ -1,25 +1,40 @@
 [
     {
       "title": "Donasi Masyarakat",
+
       "image": "assets/donimg.jpg",
+
+      "image": "image/donimg.jpg",
+
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "buttonText": "Donasi"
     },
     {
       "title": "Bantuan Kesehatan",
       "image": "assets/health.jpg",
+
+      "image": "image/health.jpg",
+
       "description": "Supporting medical supplies across rural areas.",
       "buttonText": "Support"
     },
     {
       "title": "Edukasi Anak Bangsa",
+
       "image": "assets/education.jpg",
+
+      "image": "image/education.jpg",
+
       "description": "Providing educational resources for underprivileged children.",
       "buttonText": "Learn More"
     },
     {
       "title": "Program Lingkungan",
+
       "image": "assets/environment.jpg",
+
+      "image": "image/environment.jpg",
+
       "description": "A community program for environmental conservation and awareness.",
       "buttonText": "Join Us"
     }
