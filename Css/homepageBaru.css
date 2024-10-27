@@ -1,4 +1,4 @@
-/* Base styles and reset */
+/* NAVBAR */
 * {
   margin: 0;
   padding: 0;
@@ -48,46 +48,50 @@ body {
   font-size: 1rem;
 }
 
-.auth-buttons {
-  display: flex;
-  gap: 0.5rem;
-}
+  .auth-buttons a {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .auth-buttons .register {
+    background-color: rgb(243, 190, 33);
+  }
 
-.profile-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .auth-buttons .register:hover{
+    background-color: antiquewhite;
+  }
 
-.profile-button .material-icons {
-  font-size: 2rem;
-  color: #333;
-}
+  .auth-buttons .login:hover{
+    background-color: antiquewhite;
+  }
 
-/* Main Event styles */
-.mainEvnt {
-  width: 100%;
-  padding: 1rem;
-  margin-bottom: 2rem;
-}
 
-.main-img {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.main-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-/* Slider Container styles */
+  
+  .mainEvnt {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .main-img {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .main-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+ /* Slider Container styles */
 .slider-container {
   position: relative;
   padding: 1rem;
