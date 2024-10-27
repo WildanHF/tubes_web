@@ -17,20 +17,20 @@ $(document).ready(function () {
             $('#emailError').text(''); // Menghapus pesan kesalahan jika valid
         }
 
-        // Validasi password
+       
         if (password === '') {
             $('#passwordError').text('Password tidak boleh kosong.');
         } else {
-            $('#passwordError').text(''); // Menghapus pesan kesalahan jika valid
+            $('#passwordError').text(''); 
         }
 
-        // Validasi konfirmasi password
+        
         if (confirmPassword === '') {
             $('#confirmPasswordError').text('Konfirmasi password tidak boleh kosong.');
         } else if (password !== confirmPassword) {
             $('#confirmPasswordError').text('Password tidak cocok.');
         } else {
-            $('#confirmPasswordError').text(''); // Menghapus pesan kesalahan jika valid
+            $('#confirmPasswordError').text('');
         }
 
         // Jika semua validasi lulus
