@@ -30,7 +30,7 @@ $(document).ready(function () {
         // Jika semua validasi lulus
         if (email && validateEmail(email) && password) {
             // Di sini, Anda bisa mengarahkan pengguna ke halaman login atau mengirim data ke server
-            window.location.href = 'homepage.html';
+            window.location.href = 'homepageLogin.html';
         }
     });
 
