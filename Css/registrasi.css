@@ -129,3 +129,57 @@ button:hover{
     color: red;
     transition: 0.3s;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Mengatur layout menjadi kolom di perangkat kecil */
+        max-width: 80%; /* Mengisi seluruh layar */
+        border-radius: 15px; 
+    }
+
+    .registrasi {
+        width: 100%; /* Isi layar penuh di mobile */
+    }
+
+    .right {
+        display: none; /* Sembunyikan gambar di bagian kanan pada mobile */
+    }
+
+    form {
+        width: 100%; /* Form mengikuti lebar container */
+        margin: 20px auto; /* Mengurangi margin di sekitar form */
+        padding: 0 20px; /* Tambahkan padding di kiri dan kanan agar tidak terlalu menempel */
+    }
+
+    button {
+        width: 100%; /* Tombol submit memenuhi lebar layar di mobile */
+    }
+
+    h1 {
+        font-size: 24px; /* Sesuaikan ukuran teks heading di mobile */
+    }
+    
+    .social-media {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 480px) {
+    form label, input {
+        font-size: 14px; /* Kurangi ukuran font di perangkat yang sangat kecil */
+    }
+
+    .akun-text {
+        font-size: 12px; /* Sesuaikan ukuran teks */
+    }
+
+    .social-icon {
+        height: 40px;
+        width: 40px;
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
