@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FDC100;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.1);
+}
+
+.code{
+    width: 1000px;
+}
+
+form{
+    width: 100%;
+    margin: 60px auto;
+    display: flex; /* Added to use flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+}
+
+h1{
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 420px;
+
+}
+
+.text{
+    margin-left: 180px;
+    text-align: start;
+    width: 55%;
+    max-width: px;
+}
+
+form label{
+    margin-right: 180px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+input{
+    align-items: center;
+    width: 32%; 
+    border-right:50%; 
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #FDC100;
+    margin-right: 30px;
+}
+
+.akun-text{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}

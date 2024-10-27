@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FDC100;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.1);
+}
+
+.baru{
+    width: 200px;
+}
+
+form{
+    width: 250px;
+    margin: 60px auto;
+}
+
+h1{
+    margin: 20px; /* Mengatur margin atas dan bawah menjadi 20px dan margin kiri/kanan otomatis */
+    text-align: start   ; /* Memastikan teks berada di tengah */
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: fit-content;
+    margin-left: 150px;
+}
+
+
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 150px;
+}
+
+input{
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 150px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #FDC100;
+    margin-left: 150px;
+}
+
+button:hover{
+    background: red;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.error-message {
+    color: black;
+    font-size: 14px;
+    margin-left: 150px;
+    display: block;
+    padding-top: 5px;
+}
+
