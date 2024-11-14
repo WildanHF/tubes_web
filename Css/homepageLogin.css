@@ -8,6 +8,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: #fce1b2;
+
 }
 
 /* Navbar styles */
@@ -16,7 +18,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  background-color: #fff;
+  background-color: rgb(227, 188, 115);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
@@ -73,12 +75,13 @@ body {
   width: 100%;
   padding: 1rem;
   margin-bottom: 2rem;
+  text-align: center; /* Center-align the content inside */
 }
 
 .main-img {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 80%; /* Adjust the width to make the image smaller */
+  max-width: 800px; /* Set a smaller max width */
+  margin: 0 auto; /* Center the image */
 }
 
 .main-img img {
@@ -112,7 +115,7 @@ body {
 /* Card styles */
 .card {
   flex: 0 0 300px;
-  background: #fff;
+  background: rgb(234, 222, 186);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -150,7 +153,7 @@ body {
 }
 
 .card-button {
-  background-color: orange;
+  background-color: rgb(219, 189, 134);
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -163,6 +166,29 @@ body {
 .card-button:hover {
   background-color: orange;
 }
+
+/* Slider Container styles */
+.slider-container {
+  position: relative;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.card-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
 
 /* Slider navigation buttons */
 .prev, .next {
@@ -258,4 +284,38 @@ body {
   .prev, .next {
       padding: 0.5rem;
   }
+}
+
+/* footer */
+footer {
+  background-color: rgb(227, 188, 115);
+  color: whitesmoke;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about ul li {
+  margin: 5px 0;
+}
+
+.about ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.about ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 14px;
 }
